@@ -1,5 +1,5 @@
 global with sharing class PropertyController {
-
+//5 june 2018
     @AuraEnabled
     public static PropertyPagedResult findAll(String searchKey, Decimal minPrice, Decimal maxPrice, Decimal pageSize, Decimal pageNumber) {
 		Integer pSize = (Integer)pageSize;
