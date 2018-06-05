@@ -1,5 +1,5 @@
 public with sharing class HandlerNext implements BotHandler {
-    
+// 5 june comment    
     public BotResponse handle(String utterance, String[] params, Map<String, String> session, String fileName, String fileContent) {
         
         List<Opportunity> opportunities = 
