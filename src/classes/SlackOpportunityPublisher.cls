@@ -1,5 +1,5 @@
 public with sharing class SlackOpportunityPublisher {
-    
+//5 june comment    
     private static final String slackURL = Dreamhouse_Settings__c.getOrgDefaults().Slack_Opportunity_Webhook_URL__c;
     
     @InvocableMethod(label='Post to Slack')
